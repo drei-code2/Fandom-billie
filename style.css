@@ -1,0 +1,278 @@
+body{
+  background-repeat: repeat;
+  background-image: linear-gradient( #787777 , #2a2626);
+
+}
+.head{
+  padding-left: 65px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(15, 180, 144);
+     animation: 2s head1;
+    padding-top: 10px;
+    font-family: "Georgia", serif;
+    margin: 0 0 19px 40px;
+    float:left;
+    font-size:40px;
+}
+.head1{
+ 
+  padding-left: 65px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(15, 180, 144);
+ padding-top: 10px;
+ font-family: "Georgia", serif;
+ margin: 0 0 19px 40px;
+ float:left;
+ font-size:40px;
+}
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 1000;
+}
+ul{ 
+   padding-bottom: 30px;
+   margin-right:25px; 
+   padding-right:29px;
+}
+.li1{
+  
+  animation: 2s list1;
+   float:right;
+   display: inline;
+   padding-top:25px;
+   font-size:20px;
+}
+.li2{
+ 
+   float:right;
+   display: inline;
+   padding-top:25px;
+   font-size:20px;
+}
+li a {
+   text-decoration:none;
+   color:rgb(15, 180, 144);
+   padding:30px;
+}
+li a:hover{
+    color:rgba(255, 255, 255, 0.551);
+    font-size: 21px;
+
+}
+li a:active{
+  font-weight: bold; 
+  color: rgb(9, 8, 8);
+}
+
+.container{
+   /* justify-content: space-between; 
+    align-items: flex-start;*/
+    margin: 20px; 
+    padding-top: 200px;  
+    margin-left: 50px;
+}
+
+
+img{
+  margin-top: -35px;
+  transition: 0.3s ease transform;
+  box-shadow: 0 0 12px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 35px;
+    width: 350px;
+} 
+img:hover{
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+  transform: scale(1.05);
+}
+.img1{
+     margin-top: -50px;
+    animation: 3s alex;
+    margin-left: 40px ;
+}
+.img2{
+    animation: 4s dan;
+    margin:0 0 0 520px;
+    margin-top: -330px;
+}
+
+.img3{
+ 
+    animation: 4s mark;
+    margin:0 0 0 1000px;
+    margin-top: -330px;
+}
+
+.img1 p {
+  color:white;
+  font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 98px;
+}
+.img2 p {
+  color:white;
+  font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 84px;
+}
+.img3 p {
+  color:white;
+  font-family: "Lucida Console", "Courier New", monospace;
+    margin-left: 65px;
+}
+ .p1:hover{
+  font-weight: bold;
+  color:rgb(0, 0, 0);
+}
+a{
+  text-decoration: none;
+}
+
+/* pic animatiom*/
+@keyframes alex{
+    from {
+      margin-left: -30%;
+    }
+    to {
+      margin-left: 2.78%;
+    }
+    0% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 1;
+      }
+  }
+  @keyframes dan {
+    from {
+      margin-left: -30%;
+    }
+    to {
+      margin-left: 36.3%;
+    }
+    0% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 1;
+      }
+  }
+  @keyframes mark{
+    from {
+      margin-left: -30%;
+    }
+    to {
+      margin-left: 69.8.9%;
+    }
+    0% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 1;
+      }
+  }
+  @keyframes head1{
+    from {
+      margin-top: -30%;
+    }
+    to {
+      margin-top: 0.1%;
+    }
+    0% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 1;
+      }
+  }
+  @keyframes list1{
+    from {
+      margin-right: -30%;
+    }
+    to {
+      margin-right: 0.02%;
+    }
+    0% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 1;
+      }
+  }
+  @keyframes ako{
+    0% {
+        opacity: 0;
+      }
+    
+      100% {
+        opacity: 1;
+      }
+  }
+  .dis{
+    margin-left: 560px;
+    margin-top: 100px;
+    border-radius: 25px;
+    width: 370px;
+    color: #787777;
+    background-color: #2a2626;
+  }
+  .dis h1{
+    padding-top: 15px;
+   margin-left: 30px;
+  }
+  .dis p{
+    padding-bottom: 50px;
+    margin-left: 40px;
+   }
+  section {
+    
+    flex-direction:column;
+    align-items:center;
+    padding: 110px 100px;
+}
+  .box{
+    animation: 3s ako;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+ }
+ 
+ .box video{ 
+ 
+  box-shadow: 0 0 17px 12px rgba(0, 0, 0, 0.5);
+   border-radius: 25px;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     z-index: -1;
+ }
+
+ .ab{
+  box-shadow: 0 0 17px 12px rgba(0, 0, 0, 0.5);
+  width: 800px;
+  margin-left: 250px;
+  border-radius: 30px;
+  margin-top: 170px;
+  background-color: #787777;
+  color: rgb(214, 210, 210);
+ }
+ 
+ .ab-img{
+  margin-left: 220px;
+  margin-top: 30px;
+ }
+
+ .end{
+  text-align: center;
+  color: rgb(111, 106, 106);
+ }
+ 
